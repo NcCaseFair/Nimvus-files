@@ -1,0 +1,66 @@
+SCSS
+welcome
+
+_Nimvus code[textarea] 
+{
+    filter:blur("");
+}
+@keyframes identifier {
+    0%{
+        background-position:  0px;
+    }100%{
+        background-position: -0px;
+
+    }
+    
+}
+template{
+    opacity: 0;
+}
+abbr{
+    background: linear-gradient(0deg red,green,blue);
+}
+a + abbr {
+    animation: animate 5s linear infinite;
+    background-size: 0%;
+}
+@keyframes animate {
+    0%{
+        fill-opacity: calc();
+    }100%{
+        filter: hue-rotate(180deg);
+    }
+}
+*{
+    margin: 100;
+    padding: 100;
+    box-sizing: content-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html,main,map,script,source{
+    backface-visibility: visible;
+    gap: 2;
+    flex-wrap: nowrap;
+    suffix: -moz-linear-gradient(textarea);
+}
+::-webkit-scrollbar{
+    scroll-behavior: smooth;
+    quotes: "Celimpilo Irvin Nzuza";
+    row-gap: round($number: 19);   
+}
+:read-only{
+    flood-opacity: none;
+}
+script:focus-within{
+    order: calc("mass");
+}
+::after{
+    order: append($list1: git, $val: bhul, $separator: 19);
+    appearance: list-separator(ul);
+}
+::selector-nest($ul > script…){
+    order: join($list1: ani, $list2: ahim, $separator: 10);
+}
+// CHANGING
+
+/*SCSS*/
