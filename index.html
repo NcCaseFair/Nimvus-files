@@ -1,71 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <hr src="./nimvuspec.exs">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		 <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/736x/48/ae/0f/48ae0f89aa772f8a15c61bb9854a0980.jpg">
-    <meta http-equiv="X-UA-Compatible" content="IE=7">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>_Nimvus_Arch_=?User</title>
+    <link rel="stylesheet" href="style.css">
+    <title>C-Value</title>
 </head>
 <body>
-    <article>
-        <span>
-            <wbr>
-                <th aria-valuetext="dock"><link rel="stylesheet" href="./style.css"></th>
-                <a href="./ul.TS">☁</a>
-                <source src="./ul.scss" ondragover="on(Touch);">
-                <area action=".babelrc" method="post">
-                    <col name="Job"><link rel="stylesheet" href="./Company ©.xml" media="print"></col>
-                    <img src="#" alt="splash">
-                    <cite spellcheck="false"><link rel="import" href="./voucher.swift"></cite>
-                    <address spellcheck="true"><link rel="alternate" href="./tumbler.coffee" type="application/rss+xml" title="RSS"></address>
-                    <data value="normal"><link rel="alternate" href="/hundred.jade" type="application/atom+xml" title="Atom"></data>
-                    <area aria-valuemax="_nimvus☁"><link rel="refresh" href="./startupivot.ad" type="markdown" title="meta"></area>
-                    <wbr aria-sort="ascending"><link rel="manifest" href="../nimvus code files/.Dockerfile"></wbr>
-                </form>
-            </p>
-        </span>
-    </article>
-    <base href="#">
-    <div class="sofa">
-        <span></span>
-        <img src="#" alt="" id="sofa">
-      </div>
-      <div class="rocket">
-        <span></span>
-        <img src="#" alt="">
-      </div>
-      <slot>
-     <div class="cream">
-        <span></span>
-        <img src="#" alt="">
-     </div>
-      </slot>
-            </div>
+    <div class="range">
+    <div class="sliderValue">
+        <span>100</span>
+    </div>
+    <div class="field">
+        <div class="value left">0</div>
+            <input type="range" min="0" max="200" step="1">
+            <div class="value right">200</div>
         </div>
     </div>
-    <div class="dock">
-        <span></span>
-        <div class="dock-items">
-            <ul></ul>
-            <dl id="connect-store"></dl>
-            <b id="coffee"></b>
-            <h1 id="weather"></h1>
-            <div class="emoticons">
-                <div class="folder-one">
-                </div>
-                <div class="folder-two">
-                </div>
-            </div>
-            <del id="dictionary"></del>
-            <em id="gallery"></em>
-            <code id="music"></code>
-            <h5 id="internet"></h5>
-            <bdo id="meta"></a>
-            </div>
-        </div>
+    <div class="price">
+            <input type="number" placeholder="PRICE" name="buttonP" id="pr">
     </div>
+    <script>
+        const sliderValue = document.querySelector("span");
+        const inputSlider = document.querySelector("input");
+        inputSlider.oninput = (()=>{
+            let value = inputSlider.value;
+            sliderValue.textContent = value;
+            sliderValue.style.left = (value/2) + "%";
+        });
+    </script>
 </body>
 </html>
